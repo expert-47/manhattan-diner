@@ -170,7 +170,7 @@ export default function Dashboard() {
           }}
         >
           <Toolbar />
-          {router.pathname === "dashboard" && (
+          {router.pathname === "/dashboard" && (
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
               <Grid container spacing={3}>
                 {/* Chart */}
